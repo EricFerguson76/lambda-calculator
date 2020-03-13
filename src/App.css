@@ -31,18 +31,30 @@
     color: white;
     border: none;
     box-shadow: 1px 1.5px 5px black; 
+    
   }
+  
 
-  .numbers{
-    width: 40%;
+.button-container{
+  width: 100%;
+  display: flex;
+  border: 1px solid blue;
+}
+
+   .numbers{
+  width: 45%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 
 
-    }
+    } 
 
 .operators{
-  
-}
+  width: 30%;
+  display:flex;
+  justify-content: flex-end;
+  flex-direction: column;
+
+} 
   
