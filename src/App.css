@@ -20,3 +20,41 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  button{
+    font-size: 1.5rem;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    box-shadow: 1px 1.5px 5px black; 
+    
+  }
+  
+
+.button-container{
+  width: 100%;
+  display: flex;
+  border: 1px solid blue;
+}
+
+   .numbers{
+  width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+    } 
+
+.operators{
+  width: 30%;
+  display:flex;
+  justify-content: flex-end;
+  flex-direction: column;
+
+} 
+  
